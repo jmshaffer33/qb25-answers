@@ -11,11 +11,35 @@ data = expression_file.readline().rstrip().split("\t")
 
 expression_dict = {}
 
-#for values in expression_file:
-#need to make dictionary loop here...........didn't go great the first time I tried........
+for value in range(len(header)):
+    entry = header[value]
+    expression_dict[entry] = data[value]
 
-#"this could be the start of something neeeeew, it feels so right to be here with you ooooooooh"
-#"and now looking in your eyeeeeeees, I feeeeeel in my hearttttt"
-#"The start of something new"
-#-Troy and Gabriella Highschool Musical
-    
+
+
+
+
+metadata_file = open("/Users/cmdb/qb25-answers/GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt")
+
+for line in metadata_file:
+    line_no_newlines = line.rstrip("\n")
+    line_parsed_final = line_no_newlines.split("\t")
+    if line_parsed_final[0] in expression_dict:
+        SAMPID = line_parsed_final[0]
+        Tissue = line_parsed_final[6]
+        Expression = expression_dict[SAMPID]
+    else:
+        continue
+    print(f"Tissue: {Tissue}\t SAMPID: {SAMPID}\t Expression: {Expression}\n")
+
+metadata_file.close()
+
+#answers to first 3 tissues >0 expression: 
+#Brain - Cortex
+#Adrenal Gland 
+#Thyroid
+
+#open file, compare with dictionary
+#if present, add to list corresponding with characteristic
+#print string of all lists put together like a family
+  

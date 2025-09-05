@@ -1,6 +1,6 @@
 # Mini_Project 1: Calculating Assembly Metrics for C. remanei
-Instructions, background information, and results for use in Mini-Project 1
-Should hopefully make reproducability easier and more fun! :D <3 :D
+## Instructions, background information, and results for use in Mini-Project 1
+## Should hopefully make reproducability easier and more fun! :D <3 :D
 
 C. remanei genome 248909
 - https://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/releases/WBPS19/species/caenorhabditis_remanei/PRJNA248909/caenorhabditis_remanei.PRJNA248909.WBPS19.genomic.fa.gz

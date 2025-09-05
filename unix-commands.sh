@@ -38,5 +38,12 @@ grep -v -c "RNA" GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt
 #Question4
 chmod -x extract_expression_values.py
 ./extract_expression_values.py GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_tpm.gct
+#tissue, SAMPID, expression printed as string for all lines in metadata_file
+
+#look with eyes to identfy irst 3 tissues >0 expression
+#Brain - Cortex
+#Adrenal Gland 
+#Thyroid
+
 
 # I <3 <3 unix this is so much more fun :D :D :D 

@@ -1,0 +1,15 @@
+library(tidyverse)
+setwd ("/Users/cmdb/qb25-answers/week_1/")
+header <- c( "chr", "start", "end", "count" )
+df_kc <- read_tsv( "hg19-kc-count.bed", col_names=header )
+
+ggplot(data = df_kc, aes(x=start, y=count, color = chr)) +
+  geom_line() +
+  labs(
+    x = "Start" , 
+    y = "End" , 
+    title = "Gene density across main chromosomes"
+    ) +
+  facet_wrap(. ~ chr, scales = "free")
+
+ggsave( "exercise1.png" )

@@ -1,0 +1,18 @@
+library(tidyverse)
+setwd ("/Users/cmdb/qb25-answers/week_1/")
+
+header <- c( "chr", "start", "end", "count" )
+dfA <- read_tsv( "hg19-kc-count.bed", col_names=header )
+dfB <- read_tsv( "hg16-kc-count.bed", col_names=header )
+
+df_19_16 <- bind_rows( hg19=dfA, hg16=dfB, .id="assembly" )
+
+ggplot(data = df_19_16, aes(x=start, y=count, color = assembly)) +
+  geom_line() +
+  labs(
+    x = "Start" , 
+    y = "Count" , 
+    title = "Gene density across main chromosomes in hg19 and hg16"
+  ) +
+  facet_wrap(. ~ chr, scales = "free")
+

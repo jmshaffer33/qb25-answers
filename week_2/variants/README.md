@@ -1,4 +1,4 @@
-#For Q1
+For Q1
 bowtie2-build sacCer3.fa sacCer3
 
 bowtie2 -p 4 -x ../genomes/sacCer3 -U ~/Data/BYxRM/fastq/A01_01.fq.gz > A01_01.sam
@@ -10,6 +10,6 @@ samtools index A01_01.bam
 samtools idxstats A01_01.bam > A01_01.idxstats
 
 
-#For Q2
-#how this visualization compares to haplotypes in BYxRM_GenoData.txt
-#do some look more similar to eachothe than to others?
+For Q2
+How this visualization compares to haplotypes in BYxRM_GenoData.txt
+Do some look more similar to eachothe than to others?

@@ -10,5 +10,6 @@ samtools index A01_01.bam
 samtools idxstats A01_01.bam > A01_01.idxstats
 
 
+#For Q2
 #how this visualization compares to haplotypes in BYxRM_GenoData.txt
 #do some look more similar to eachothe than to others?

@@ -4,15 +4,15 @@ We are looking to recreate a figure in the style of Figure 2 from the Rokyta et 
 We are hoping that this re-organization of our project will allow for sequence alignment of an existing genome, to support downstream annotation, identification, and analysis of venom transcripts. 
 If needed, a reference transcriptome could be used from the black mamba, Dendroaspsis polylepis; king cobra and black mamba are both species within Elapidae, Ophiophagus and Dendroaspsis are sister clades. Black mamba  transcriptome data are also available through the NCBI SRA under accession number: SRR5485228. 
 
-![Figure 2, similar to what we want to make](Users/cmdb/qb25-answers/project/figure_2.png) 
+![Figure 2, similar to what we want to make](figure_2.png) 
 
 ## Datasets: 
 O. hannah\
 Whole genome sequencing: Bio-Project GCA_000516915.1\
-(https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000516915.1/) 
+https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000516915.1/ 
 
 Transcriptome: SRA SRP055563\
-(https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1821260&display=metadata) 
+https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1821260&display=metadata 
 
 D. polylepis\
 Transcriptome: SRA SRR5485228\

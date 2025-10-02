@@ -7,23 +7,24 @@ If needed, a reference transcriptome could be used from the black mamba, Dendroa
 ![Figure 2, similar to what we want to make](/Users/cmdb/qb25-answers/project/figure_2.png) 
 
 ## Datasets: 
-O. hannah
-Whole genome sequencing: Bio-Project GCA_000516915.1
-(https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000516915.1/)
-Transcriptome: SRA SRP055563
-(https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1821260&display=metadata) 
-D. polylepis
-Transcriptome: SRA SRR5485228
+O. hannah\
+Whole genome sequencing: Bio-Project GCA_000516915.1\
+(https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000516915.1/)\
+Transcriptome: SRA SRP055563\
+(https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1821260&display=metadata)\
+
+D. polylepis\
+Transcriptome: SRA SRR5485228\
 (https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR5485228&display=metadata) 
 
 ## Software: 
 (would like help with this pls)
 
-Bowtie2 sequence aligner version 2.5.4
+Bowtie2 sequence aligner version 2.5.4\
 (https://bowtie-bio.sourceforge.net/bowtie2/index.shtml) 
 
 ## Goals:
-Assemble and align king cobra sequences along genome
-Identify coding vs non-coding transcripts 
-Identify toxin-specific (i.e. metalloproteins) and non-toxin specific transcripts in transcriptome via comparisons to blastx protein searches
+Assemble and align king cobra sequences along genome\
+Identify coding vs non-coding transcripts\ 
+Identify toxin-specific (i.e. metalloproteins) and non-toxin specific transcripts in transcriptome via comparisons to blastx protein searches\
 Quantify transcript abundances, protein categories, expression levels

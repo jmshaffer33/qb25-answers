@@ -9,9 +9,10 @@ If needed, a reference transcriptome could be used from the black mamba, Dendroa
 ## Datasets: 
 O. hannah\
 Whole genome sequencing: Bio-Project GCA_000516915.1\
-(https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000516915.1/)\
+(https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000516915.1/) \
+
 Transcriptome: SRA SRP055563\
-(https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1821260&display=metadata)\
+(https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1821260&display=metadata) \
 
 D. polylepis\
 Transcriptome: SRA SRR5485228\

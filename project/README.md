@@ -19,10 +19,14 @@ Transcriptome: SRA SRR5485228\
 https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR5485228&display=metadata 
 
 ## Software: 
-(would like help with this pls)
+(would like help with this pls, not sure what else since we're creating a new figure)
 
 Bowtie2 sequence aligner version 2.5.4\
-(https://bowtie-bio.sourceforge.net/bowtie2/index.shtml) 
+https://bowtie-bio.sourceforge.net/bowtie2/index.shtml 
+
+StringTie transcript assembly and quantification for RNA-Seq version 3.0.0\
+https://ccb.jhu.edu/software/stringtie/ 
+
 
 ## Goals:
 Assemble and align king cobra sequences along genome\

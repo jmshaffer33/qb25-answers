@@ -26,7 +26,7 @@ https://anaconda.org/bioconda/fastqc
 **Skewer:** Trim sequence adapters if needed.   
 https://sourceforge.net/projects/skewer/  
 
-**Bowtie2 sequence aligner version 2.5.4**
+**Bowtie2 sequence aligner version 2.5.4**  
 https://bowtie-bio.sourceforge.net/bowtie2/index.shtml  
 
 - Alternatively, we could use a splice-aware aligner. E.g. Star or HISAT2 to index and align to the reference genome.   

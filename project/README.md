@@ -4,7 +4,8 @@ We are looking to recreate a figure in the style of Figure 2 from the Rokyta et 
 We are hoping that this re-organization of our project will allow for sequence alignment of an existing genome, to support downstream annotation, identification, and analysis of venom transcripts. 
 If needed, a reference transcriptome could be used from the black mamba, Dendroaspsis polylepis; king cobra and black mamba are both species within Elapidae, Ophiophagus and Dendroaspsis are sister clades. Black mamba  transcriptome data are also available through the NCBI SRA under accession number: SRR5485228. 
 
-![Figure 2, similar to what we want to make](figure_2.png) 
+![Reference figure from Rokyta et al 2014:](figure_2.png) 
+Figure 2: The venom-gland transcriptome of Hypsiglena sp. showed high expression and diversity of snake venom metalloproteinases.
 
 ## Datasets: 
 ***O. hannah***\
@@ -18,18 +19,22 @@ https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR1821260&display=m
 Transcriptome: SRA SRR5485228\
 https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR5485228&display=metadata 
 
-## Software: 
-(would like help with this pls, not sure what else since we're creating a new figure)
-
-Bowtie2 sequence aligner version 2.5.4\
-https://bowtie-bio.sourceforge.net/bowtie2/index.shtml 
-
-StringTie transcript assembly and quantification for RNA-Seq version 3.0.0\
-https://ccb.jhu.edu/software/stringtie/ 
+## Software: (would like help with this pls)
+**FastQC 0.12.1:** Run a quality control check on sequencing data;\ 
+https://anaconda.org/bioconda/fastqc 
+**Skewer:** Trim sequence adapters if needed.\ 
+https://sourceforge.net/projects/skewer/ 
+**Bowtie2 sequence aligner version 2.5.4**
+https://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+- Alternatively, we could use a splice-aware aligner. E.g. Star or HISAT2 to index and align to the reference genome.\ 
+**HISAT 2.2.1:** 
+https://daehwankimlab.github.io/hisat2/
+**FeatureCounts/Subreads version 2.1.1:** Count how many reads align to a gene within the reference genome.\ 
+https://subread.sourceforge.net/ 
 
 
 ## Goals:
-Assemble and align king cobra sequences along genome\
-Identify coding vs non-coding transcripts   
-Identify toxin-specific (i.e. metalloproteins) and non-toxin specific transcripts in transcriptome via comparisons to blastx protein searches\
-Quantify transcript abundances, protein categories, expression levels
+1. Assemble and align king cobra sequences along genome\
+2. Identify coding vs non-coding transcripts   
+3. Identify toxin-specific (i.e. metalloproteins) and non-toxin specific transcripts in transcriptome via comparisons to blastx protein searches\
+4. Quantify transcript abundances, protein categories, expression levels

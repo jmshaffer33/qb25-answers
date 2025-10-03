@@ -40,5 +40,5 @@ https://subread.sourceforge.net/
 ## Goals:
 1. Assemble and align king cobra sequences along genome\
 2. Identify coding vs non-coding transcripts   
-3. Identify toxin-specific (i.e. metalloproteins) and non-toxin specific transcripts in transcriptome via comparisons to blastx protein searches\
+3. Identify toxin-specific (i.e. metalloproteins) and non-toxin specific transcripts in transcriptome via comparisons to blastx protein searches  
 4. Quantify transcript abundances, protein categories, expression levels

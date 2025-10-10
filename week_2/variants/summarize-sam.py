@@ -31,7 +31,15 @@ for line in sequence_data:
             else:
                 sequence_mismatch_count_dict[mismatch_count] += 1 
 
-print(sequence_alignment_count_dict)
-print(sequence_mismatch_count_dict)
+for key in sequence_alignment_count_dict.keys():
+    print(key, sequence_alignment_count_dict[key])
 
+
+keys_list = sequence_mismatch_count_dict.keys()
+keys_list_sorted = sorted(keys_list)
+
+for keys2 in keys_list_sorted:
+    print(keys2, sequence_mismatch_count_dict[keys2])
+
+    
 #if statement defines what is in dictionary, key = RNAME and value = count 

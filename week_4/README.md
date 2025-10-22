@@ -52,5 +52,5 @@ The cities that are visited on each American Idol season change each time. As su
 Is there a difference in number of tickets to Hollywood across each season?  
 p-value = 0.9931 > 0.05  
 The relationship is not significant because it is above the threshold 0.05.   
-There is not a significant difference in number of tickets to hollywood across each season of American Idol (1-18). 
-
+There is not a significant difference in number of tickets to hollywood across each season of American Idol (1-18).   
+This might be because there is a standard range of tickets to hollywood given each season (approx 150-250), so there is incredibly minumal variation between each season's quantity (hence the high high nonsignificant p-value). 

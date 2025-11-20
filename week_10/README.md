@@ -1,6 +1,6 @@
 # AA Aligment
 
-./sequence_alignment.py CTCF_38_M27_DNA.fna HOXD70.txt -300 DNA_alignment.txt 
+./sequence_alignment.py CTCF_38_M27_AA.faa BLOSUM62.txt -10 AA_alignment.txt  
 
 sequence1_number_of_gaps: 0  
 sequence2_number_of_gaps: 9  
@@ -10,7 +10,7 @@ alignment_score: 3801
 
 # DNA Alignment
 
-./sequence_alignment.py CTCF_38_M27_AA.faa BLOSUM62.txt -10 AA_alignment.txt
+./sequence_alignment.py CTCF_38_M27_DNA.fna HOXD70.txt -300 DNA_alignment.txt   
 
 sequence1_number_of_gaps: 78  
 sequence2_number_of_gaps: 46  

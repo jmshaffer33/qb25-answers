@@ -1,4 +1,4 @@
-# AA Aligment
+# AA Alignment
 
 ./sequence_alignment.py CTCF_38_M27_AA.faa BLOSUM62.txt -10 AA_alignment.txt  
 

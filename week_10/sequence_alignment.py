@@ -69,8 +69,8 @@ for i in range(1, len(sequence1) + 1):
 i = len(sequence1)
 j = len(sequence2)
 
-seq1_alignment = ' '
-seq2_alignment = ' '
+seq1_alignment = ''
+seq2_alignment = ''
  
 while i != 0 or j != 0:
     if traceback_matrix[i,j] == "d":
@@ -136,4 +136,5 @@ output_file.write(f"percent_sequence2_identity: {seq2_identity}\n")
 alignment_score = f_matrix[len(sequence1), len(sequence2)]
 output_file.write(f"alignment_score: {alignment_score}\n")
 
-    
+#./sequence_alignment.py CTCF_38_M27_AA.faa BLOSUM62.txt -10 AA_alignment.txt
+#./sequence_alignment.py CTCF_38_M27_DNA.fna HOXD70.txt -300 DNA_alignment.txt    

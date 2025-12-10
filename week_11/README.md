@@ -1,8 +1,3 @@
-
-histogram should look like Poisson pretty well, a bit noisy
-
-lambda = coverage #
-
 # Ex 1.1
 ## How many 100bp reads are needed to sequence a 1Mbp genome to 3x coverage?
 1Mbp x 3x = 3Mbp of data  
